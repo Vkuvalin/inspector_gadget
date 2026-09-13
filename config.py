@@ -1,5 +1,7 @@
-TOKEN = "5194627649:AAEmIdgm6SjKA0Yxm_tVYQEDOO5blCakuuE"
-admin_id = 5009372827
+import os
+
+TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+admin_id = int(os.environ["TELEGRAM_ADMIN_ID"])
 
 
 
